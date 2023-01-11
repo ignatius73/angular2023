@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styles: [
   ]
 })
+
+/* interface Chardata {
+
+} */
 export class Grafica1Component {
 
 }

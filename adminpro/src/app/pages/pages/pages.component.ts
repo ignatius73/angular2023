@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
+import { SettingsService } from 'src/app/services/settings.service';
 
 @Component({
   selector: 'app-pages',
@@ -6,6 +7,13 @@ import { Component } from '@angular/core';
   styles: [
   ]
 })
-export class PagesComponent {
+export class PagesComponent{
+
+  constructor(
+    private settingsService:SettingsService
+  ){}
+
+
+
 
 }
